@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/.env</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/layouts/base.blade.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/auth/login.blade.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/app/Http/Controllers/AdminController.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/admin/admin.blade.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/public/assets/css/main.min.css</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/app/Exceptions/Handler.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/inicio.blade.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/app/Http/Controllers/Auth/LoginController.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/app.blade.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/routes/web.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/public/assets2/css/main.css</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/public/assets/css/main.css</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/inicioSpanish.blade.php</file>
+        </group>
+    </open-files>
+</project-private>
