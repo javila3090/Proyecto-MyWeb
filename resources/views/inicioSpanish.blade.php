@@ -96,7 +96,7 @@
             <header class="clearfix">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12"><h2>Diseños responsive</h2></div>
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12"><h2>Diseños adaptativos</h2></div>
                     </div>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12"><img class="img img-responsive" src="assets/img/responsive.jpg" style="width: auto; height: auto;" alt=""></div>
@@ -105,19 +105,19 @@
                 <br>                
             </header>
         </div>   
-        <!--<div class="slider-item" id="headerwrap" name="home">
+        <div class="slider-item" id="headerwrap" name="home">
             <header class="clearfix">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4"><h2>Asesorías TI</h2></div>
+                        <div class="col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4"><h2>Trabajo de calidad</h2></div>
                     </div>
                     <div class="row">                        
-                        <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 text-center"><img class="img img-responsive" src="assets/img/Banner-Diseo-Web-imagen.png" style="width: auto; height: auto;" alt=""></div>
+                        <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 text-center"><img class="img img-responsive" src="assets/img/garantia.png" style="width: auto; height: auto;" alt=""></div>
                     </div>
                 </div>
                 <br>                
             </header>
-        </div>   -->       
+        </div>       
     </div>
 </div><!-- /headerwrap -->
 <!-- ==== ABOUT ==== -->

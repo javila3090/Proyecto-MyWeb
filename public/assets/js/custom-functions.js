@@ -4,7 +4,7 @@ $(document).ready(function() {
     });   
     
     $('.slide').textSlider({
-        timeout: 5000,
+        timeout: 7000,
         slideTime: 850,
         loop: 0
     });

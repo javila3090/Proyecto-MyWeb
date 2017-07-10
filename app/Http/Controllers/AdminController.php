@@ -536,9 +536,6 @@ class AdminController extends Controller
         return redirect()->back()->with('message', '¡Registro eliminado con &eacute;xito!');        
     }  
     
-    
-    
-    
     public function listMessages()
     {
        $messages = Message::orderBy("created_at","desc")->limit(5)->offset(5)->get();
@@ -558,4 +555,3 @@ class AdminController extends Controller
         return redirect()->back()->with('message', '¡Registro eliminado con &eacute;xito!');        
     }  
 }
-

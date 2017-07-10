@@ -67,16 +67,70 @@
 </div> 
 <!-- ==== HEADERWRAP ==== -->
 <div class="page-section" id="home">
-    <div id="headerwrap" name="home">
-        <header class="clearfix">
-            <h1><img class="img img-rounded shadow-img" src="{{$about->route_img}}" height="270px" width="200px" alt=""></h1>            
-            <h1>{{$about->first_name}} {{$about->last_name}} </h1>
-            <h1><small>{{$about->position}}</small></h1>
-            <br>
-            <img src="assets/img/icon-tw.png" style="cursor: pointer;" onclick="javascript:window.open('https://twitter.com/{{$about->twitter}}','_blank')"/>
-            <img src="assets/img/icon-fb.png" style="cursor: pointer;" onclick="javascript:window.open('https://facebook.com/{{$about->facebook}}','_blank')"/>
-            <img src="assets/img/icon-lk.png" style="cursor: pointer;" onclick="javascript:window.open('https://ve.linkedin.com/in/{{$about->linkedin}}','_blank')"/>
-        </header>
+    <div class="slide">
+        <div class="slider-item" id="headerwrap" name="home">
+            <header class="clearfix">
+                <h1><img class="img img-rounded shadow-img" src="{{$about->route_img}}" height="270px" width="200px" alt=""></h1>            
+                <h1>{{$about->first_name}} {{$about->last_name}} </h1>
+                <h1><small>{{$about->position}}</small></h1>
+                <br>
+                <img src="assets/img/icon-tw.png" alt="Twitter"  style="cursor: pointer;" onclick="javascript:window.open('https://twitter.com/{{$about->twitter}}','_blank')"/>
+                <img src="assets/img/icon-fb.png" alt="Facebook" style="cursor: pointer;" onclick="javascript:window.open('https://facebook.com/{{$about->facebook}}','_blank')"/>
+                <img src="assets/img/icon-lk.png" alt="Linkedin" style="cursor: pointer;" onclick="javascript:window.open('https://ve.linkedin.com/in/{{$about->linkedin}}','_blank')"/>
+            </header>
+        </div>
+        <div class="slider-item" id="headerwrap" name="home">
+            <header class="clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12"><h2>Tailor made solutions</h2></div>
+                    </div>
+                    <div class="row">                        
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12"><img class="img img-responsive" src="assets/img/Objeto-inteligente-vectorial43.jpg" style="width: auto; height: auto;" alt=""></div>
+                    </div>
+                </div>
+                <br>                
+            </header>
+        </div>        
+        <div class="slider-item" id="headerwrap" name="home">
+            <header class="clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12"><h2>Responsive designs</h2></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12"><img class="img img-responsive" src="assets/img/responsive.jpg" style="width: auto; height: auto;" alt=""></div>
+                    </div>
+                </div>
+                <br>                
+            </header>
+        </div>
+        <div class="slider-item" id="headerwrap" name="home">
+            <header class="clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4"><h2>Satisfaction guarantee</h2></div>
+                    </div>
+                    <div class="row">                        
+                        <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 text-center"><img class="img img-responsive" src="assets/img/garantia.png" style="width: auto; height: auto;" alt=""></div>
+                    </div>
+                </div>
+                <br>                
+            </header>
+        </div>         
+        <!--<div class="slider-item" id="headerwrap" name="home">
+            <header class="clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4"><h2>Asesorías TI</h2></div>
+                    </div>
+                    <div class="row">                        
+                        <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 text-center"><img class="img img-responsive" src="assets/img/Banner-Diseo-Web-imagen.png" style="width: auto; height: auto;" alt=""></div>
+                    </div>
+                </div>
+                <br>                
+            </header>
+        </div>   -->       
     </div>
 </div><!-- /headerwrap -->
 <!-- ==== ABOUT ==== -->
