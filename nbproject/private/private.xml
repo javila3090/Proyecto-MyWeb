@@ -8,7 +8,6 @@
             <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/auth/login.blade.php</file>
             <file>file:/C:/Users/julioLaptop/Projects/myweb/app/Http/Controllers/AdminController.php</file>
             <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/admin/admin.blade.php</file>
-            <file>file:/C:/Users/julioLaptop/Projects/myweb/public/assets/css/main.min.css</file>
             <file>file:/C:/Users/julioLaptop/Projects/myweb/app/Exceptions/Handler.php</file>
             <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/inicio.blade.php</file>
             <file>file:/C:/Users/julioLaptop/Projects/myweb/app/Http/Controllers/Auth/LoginController.php</file>
@@ -16,9 +15,12 @@
             <file>file:/C:/Users/julioLaptop/Projects/myweb/routes/web.php</file>
             <file>file:/C:/Users/julioLaptop/Projects/myweb/public/assets2/css/main.css</file>
             <file>file:/C:/Users/julioLaptop/Projects/myweb/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/errors/500.blade.php</file>
             <file>file:/C:/Users/julioLaptop/Projects/myweb/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/errors/503.blade.php</file>
             <file>file:/C:/Users/julioLaptop/Projects/myweb/public/assets/css/main.css</file>
             <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/inicioSpanish.blade.php</file>
+            <file>file:/C:/Users/julioLaptop/Projects/myweb/resources/views/errors/404.blade.php</file>
         </group>
     </open-files>
 </project-private>

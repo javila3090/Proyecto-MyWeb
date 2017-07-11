@@ -781,13 +781,16 @@ a:after {
     #contact hr.none{
         display: block;
     }
+    #contact h3.none{
+        display:none;
+    }
     #contactForm{
         margin-left:10px;
     }
-	.show-language{
-		display:block;
-		margin-left: 2px;
-	}
+    .show-language{
+	display:block;
+	margin-left: 2px;
+    }
 }
 
 @media screen and (min-width:1440px) {

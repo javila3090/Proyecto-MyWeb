@@ -276,18 +276,18 @@
         <h1 class="centered">CONTACTO <span class="fa fa-link"></span></h1>
         <hr>
         <br>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
             <h3 class="text-center">Información de contacto</h3>
-            <p class="text-center"><span class="icon icon-home"> </span> Caracas, Venezuela<br/>
-                <span class="icon icon-mobile"> </span> +58 424 3700897 <br/>
-                <span class="icon icon-envelop"> </span> <a href="#"> javila3090@gmail.com</a> <br/>
-                <span class="icon icon-twitter"> </span> <a target="blank" href="http://twitter.com/jcesaravila"> @jcesaravila </a> <br/>
-                <span class="icon icon-facebook"> </span> <a target="blank" href="http://facebook.com/kaiser3090"> Kaiser3090 </a> <br/>
-                <span class="icon icon-github"> </span> <a target="blank" href="http://github.com/javila3090"> javila3090 </a> <br/>
+            <p class="text-center"><span class="fa fa-home"> </span> Caracas, Venezuela<br/>
+                <span class="fa fa-mobile"> </span> +58 424 3700897 <br/>
+                <span class="fa fa-envelope-o"> </span> <a href="#"> javila3090@gmail.com</a> <br/>
+                <span class="fa fa-twitter"> </span> <a target="blank" href="http://twitter.com/jcesaravila"> @jcesaravila </a> <br/>
+                <span class="fa fa-facebook"> </span> <a target="blank" href="http://facebook.com/kaiser3090"> Kaiser3090 </a> <br/>
+                <span class="fa fa-github"> </span> <a target="blank" href="http://github.com/javila3090"> javila3090 </a> <br/>
             </p>
         </div><!-- col -->
         <hr class="none">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
             <!--Incluir mensaje de error-->
             @if (count($errors) > 0)
             @include('partials.errors')
