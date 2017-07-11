@@ -36,24 +36,12 @@
     </head>
     <body data-spy="scroll" data-offset="100" data-target="#navbar-main">	
         @yield('content')        
-        <!-- Scripts -->
-        <!--{!! Html::script('assets/js/jquery.min.js') !!}
-		{!! Html::script('assets/js/modernizr.custom.js') !!}
-		{!! Html::script('assets/js/jquery-func.js') !!}			
+        <!-- Scripts -->	
+	{!! Html::script('assets/js/jquery.min.js') !!}				
         {!! Html::script('assets/js/bootstrap.min.js') !!}
-		{!! Html::script('assets/js/smoothscroll.js') !!} 			
-		{!! Html::script('assets/js/custom-functions.js') !!}  
-		{!! Html::script('assets/js/retina.js') !!}
-        {!! Html::script('assets/js/jquery.easing.1.3.js') !!}-->
-		
-		{!! Html::script('assets/js/jquery.min.js') !!}				
-                {!! Html::script('assets/js/bootstrap.min.js') !!}
-		{!! Html::script('assets/js/smoothscroll.js') !!}		
-		{!! Html::script('assets/js/modernizr.custom.js') !!}				
-		{!! Html::script('assets/js/custom-functions.js') !!}
-                {!! Html::script('assets/js/text-slider.js') !!}
-		<!-- {!! Html::script('assets/js/jquery-func.js') !!}        
-        {!! Html::script('assets/js/retina.js') !!}
-        {!! Html::script('assets/js/jquery.easing.1.3.js') !!}-->		
+	{!! Html::script('assets/js/smoothscroll.js') !!}		
+	{!! Html::script('assets/js/modernizr.custom.js') !!}				
+	{!! Html::script('assets/js/custom-functions.js') !!}
+        {!! Html::script('assets/js/text-slider.js') !!}		
     </body>
 </html>
