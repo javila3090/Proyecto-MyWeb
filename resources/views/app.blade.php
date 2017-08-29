@@ -6,9 +6,9 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>Julio Avila</title>
-        <link rel="shortcut icon" href="{{ 'assets/img/favicon.ico' }}">
+        <link rel="shortcut icon" href="{{ 'assets/img/logo2.png' }}">
         {!! Html::style('assets/css/bootstrap.min.css') !!}
-        {!! Html::style('assets/css/main.css') !!}
+        {!! Html::style('assets/css/main.min.css') !!}
         <!-- {!! Html::style('assets/css/icomoon.css') !!}
         {!! Html::style('assets/css/animate-custom.css') !!} -->
         {!! Html::style('assets/css/w3.css') !!}
@@ -36,12 +36,12 @@
     </head>
     <body data-spy="scroll" data-offset="100" data-target="#navbar-main">	
         @yield('content')        
-        <!-- Scripts -->	
-	{!! Html::script('assets/js/jquery.min.js') !!}				
+        <!-- Scripts -->		
+		{!! Html::script('assets/js/jquery.min.js') !!}				
         {!! Html::script('assets/js/bootstrap.min.js') !!}
-	{!! Html::script('assets/js/smoothscroll.js') !!}		
-	{!! Html::script('assets/js/modernizr.custom.js') !!}				
-	{!! Html::script('assets/js/custom-functions.js') !!}
-        {!! Html::script('assets/js/text-slider.js') !!}		
+		{!! Html::script('assets/js/smoothscroll.js') !!}		
+		{!! Html::script('assets/js/modernizr.custom.js') !!}				
+		{!! Html::script('assets/js/custom-functions.js') !!}
+        {!! Html::script('assets/js/text-slider.js') !!}	
     </body>
 </html>

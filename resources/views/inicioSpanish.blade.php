@@ -18,8 +18,8 @@
                             <li><a id="navEng" href="{{url('/en')}}" class="language"><span id="lanNavEng">Inglés</span></a></li>
                         </ul>
                     </li>
-                </ul> 				
-                <a class="navbar-brand hidden-xs"><span class="fa fa-code" style="font-size:20px; color:#3498db;"></span></a>
+                </ul>				
+				<a class="navbar-brand navbar-brand-custom hidden-xs"><span style="font-size:20px; color:#3498db;"><img class="img" src="{{ 'assets/img/logo2.PNG' }}"/></span></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -147,9 +147,9 @@
         </div><!-- container -->
     </section><!-- section -->
     <!-- ==== SECTION LANGUAGES -->
-    <section class="section-divider textdivider">
+    <!--<section class="section-divider textdivider">
         <div class="container">
-            <h2 class="text-center">LENGUAJES  <span class="fa fa-language"></span></h2> 
+            <h2 class="text-center">IDIOMAS  <span class="fa fa-language"></span></h2> 
             <hr>
             @foreach($languages as $language)
             <p><b>{{$language->name}} </b></p>      
@@ -158,8 +158,8 @@
             </div>
             @endforeach
             <br>
-        </div><!-- container -->
-    </section><!-- section -->
+        </div> container 
+    </section>--><!-- section -->
 </div>
 <!-- ==== SERVICES ==== -->
 <div class=" page-section">
@@ -177,19 +177,19 @@
                             <i class="fa fa-html5"></i>
                             <h3>Desarrollo de sitios web</h3>
                             <div class="title_border"></div>
-                            <p></p>
+                            <p>Desarrollo de todo tipos de sitios web, sistemas de información (Inventarios, facturación, gestión de personal,sistemas médicos, entre otros.)</p>
                         </div>
                         <div class="col-md-4 feature">
                             <i class="fa fa-mobile-phone"></i>
-                            <h3>Aplicaciones móviles</h3>
+                            <h3>Diseño web</h3>
                             <div class="title_border"></div>
-                            <p></p>
+                            <p>Diseño web para todo tipo de sitios, creación de logos, optimización del front-end para la carga rápida del contenido, entre otros.</p>
                         </div>
                         <div class="col-md-4 feature">
                             <i class="fa fa-laptop"></i>
-                            <h3>Consultoría TI</h3>
+                            <h3>Sitios en wordpress</h3>
                             <div class="title_border"></div>
-                            <p></p>
+                            <p>Creación de sitios web autoadministrables con wordpress (Tiendas online, catalogos, sitios personales, entre otros.)</p>
                         </div>
                     </div>
                 </div>
@@ -276,18 +276,19 @@
         <h1 class="centered">CONTACTO <span class="fa fa-link"></span></h1>
         <hr>
         <br>
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-6">
             <h3 class="text-center">Información de contacto</h3>
-            <p class="text-center"><span class="fa fa-home"> </span> Caracas, Venezuela<br/>
+            <p class="text-center">
+				<span class="fa fa-home"> </span> Caracas, Venezuela<br/>
                 <span class="fa fa-mobile"> </span> +58 424 3700897 <br/>
-                <span class="fa fa-envelope-o"> </span> <a href="#"> javila3090@gmail.com</a> <br/>
+                <span class="fa fa-envelope"> </span> <a href="#">contacto@julioavila.com.ve</a> <br/>
                 <span class="fa fa-twitter"> </span> <a target="blank" href="http://twitter.com/jcesaravila"> @jcesaravila </a> <br/>
                 <span class="fa fa-facebook"> </span> <a target="blank" href="http://facebook.com/kaiser3090"> Kaiser3090 </a> <br/>
                 <span class="fa fa-github"> </span> <a target="blank" href="http://github.com/javila3090"> javila3090 </a> <br/>
             </p>
         </div><!-- col -->
         <hr class="none">
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-6">
             <!--Incluir mensaje de error-->
             @if (count($errors) > 0)
             @include('partials.errors')
@@ -295,7 +296,7 @@
             <!--Incluir mensaje de éxito-->
             @include('partials.messages')                 
             <div id="resultado"></div>
-            <h3>Escríbeme para cotizaciones, preguntas o sugerencias</h3>
+            <h3>Déjanos tus comentarios y/o sugerencias</h3>
             {!! Form::open(['route' => 'store/message', 'method' => 'POST', 'class' => 'form-horizontal', 'id' => 'contactForm']) !!}
             <div class="form-group">
                 <label for="email" class="col-lg-4 control-label"></label>

@@ -1,10 +1,14 @@
 $(document).ready(function() {           
-    $.ajaxSetup({
-        headers: { 'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content') }
+    $.ajaxSetup(
+    {
+        headers:
+        {
+            'X-CSRF-Token': $('input[name="_token"]').val()
+        }
     });   
     
     $('.slide').textSlider({
-        timeout: 7000,
+        timeout: 8000,
         slideTime: 850,
         loop: 0
     });
@@ -38,6 +42,9 @@ $(document).ready(function() {
             url: $(this).attr("action"),
             type: $(this).attr("method"),
             data: $(this).serialize(),
+            beforeSend: function(){
+                $("#resultado").html("<img src='assets/img/Ripple.gif'/> Enviando...");
+            },            
             success : function( data ) {
                 $('#contactForm')[0].reset();
                 $("#resultado").html(data);

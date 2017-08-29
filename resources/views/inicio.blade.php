@@ -19,7 +19,7 @@
                         </ul>
                     </li>
                 </ul> 
-                <a class="navbar-brand hidden-xs"><span class="fa fa-code" style="font-size:20px; color:#3498db;"></span></a>
+				<a class="navbar-brand navbar-brand-custom hidden-xs"><span style="font-size:20px; color:#3498db;"><img class="img" src="{{ 'assets/img/logo2.PNG' }}"/></span></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -162,7 +162,7 @@
         </div><!-- container -->
     </section><!-- section -->
     <!-- ==== SECTION LANGUAGES -->
-    <section class="section-divider textdivider">
+    <!--<section class="section-divider textdivider">
         <div class="container">
             <h2 class="text-center">LANGUAGES  <span class="fa fa-language"></span></h2> 
             <hr>
@@ -173,7 +173,7 @@
             </div>
             @endforeach
             <br>
-        </div><!-- container -->
+        </div><!-- container 
     </section><!-- section -->
 </div>
 <!-- ==== SERVICES ==== -->
@@ -192,19 +192,19 @@
                             <i class="fa fa-html5"></i>
                             <h3>Web development</h3>
                             <div class="title_border"></div>
-                            <p></p>
+                            <p>Development of all types of websites, information systems (inventories, billing, personnel management, medical systems, etc).</p>
                         </div>
                         <div class="col-md-4 feature">
                             <i class="fa fa-mobile-phone"></i>
-                            <h3>Mobile apps</h3>
+                            <h3>Web design</h3>
                             <div class="title_border"></div>
-                            <p></p>
+                            <p>Web design for all types of sites, creation of logos, optimization of the front-end for rapid loading of content, etc.</p>
                         </div>
                         <div class="col-md-4 feature">
                             <i class="fa fa-laptop"></i>
-                            <h3>TI Consulting</h3>
+                            <h3>Wordpress sites</h3>
                             <div class="title_border"></div>
-                            <p></p>
+                            <p>Creation of self-administrated websites with wordpress using customized templates (Online shops, catalogs, personal sites,etc.)</p>
                         </div>
                     </div>
                 </div>
@@ -294,12 +294,13 @@
         <br>
         <div class="col-lg-6">
             <h3 class="text-center">Contact Information</h3>
-            <p class="text-center"><span class="icon icon-home"> </span> Caracas, Venezuela<br/>
-                <span class="icon icon-mobile"> </span> +58 424 3700897 <br/>
-                <span class="icon icon-envelop"> </span> <a href="#"> javila3090@gmail.com</a> <br/>
-                <span class="icon icon-twitter"> </span> <a target="blank" href="http://twitter.com/jcesaravila"> @jcesaravila </a> <br/>
-                <span class="icon icon-facebook"> </span> <a target="blank" href="http://facebook.com/kaiser3090"> Kaiser3090 </a> <br/>
-                <span class="icon icon-github"> </span> <a target="blank" href="http://github.com/javila3090"> javila3090 </a> <br/>
+            <p class="text-center">
+				<span class="fa fa-home"> </span> Caracas, Venezuela<br/>
+                <span class="fa fa-mobile"> </span> +58 424 3700897 <br/>
+                <span class="fa fa-envelope"> </span> <a href="#"> contacto@julioavila.com.ve</a> <br/>
+                <span class="fa fa-twitter"> </span> <a target="blank" href="http://twitter.com/jcesaravila"> @jcesaravila </a> <br/>
+                <span class="fa fa-facebook"> </span> <a target="blank" href="http://facebook.com/kaiser3090"> Kaiser3090 </a> <br/>
+                <span class="fa fa-github"> </span> <a target="blank" href="http://github.com/javila3090"> javila3090 </a> <br/>
             </p>
         </div><!-- col -->
         <hr class="none">

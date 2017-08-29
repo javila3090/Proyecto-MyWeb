@@ -10,9 +10,11 @@ use MyWeb\Experience as Exp;
 use MyWeb\Language as Language;
 use MyWeb\Portfolio as Portfolio;
 use MyWeb\Message as Message;
+use MyWeb\Mail\NewMessage;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -65,10 +67,13 @@ class HomeController extends Controller
             
             $message = new Message; // Creando el objecto del modelo
             $message -> create($request->all());
-            //return redirect('/')->with('message', 'Your message has been sent!');     
+            //return redirect('/')->with('message', 'Your message has been sent!');
+
+            Mail::to("javila3090@gmail.com")->send(new NewMessage());            
+            
             return ("<div class='alert alert-dismissable alert-success'>
                 <button type='button' class='close' data-dismiss='alert'>×</button>
-                <b>Your message has been sent!</b>
+                Your message has been sent!
                 </div>");
             /*$response = array(
                 'status' => 'success',
